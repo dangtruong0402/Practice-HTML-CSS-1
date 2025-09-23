@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+<meta charset="UTF-8">
+    <title>My Self</title>
+<style>
+body {
+    background-color: rgb(131, 155, 223);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Bật flexbox */
+    display:flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.avatar {
+    width: 150px;
+    margin: 0 auto 20px;
+    height: 150px;
+    background-image: url("https://i.pinimg.com/1200x/a9/3e/88/a93e88f2581a6183249822df647caa20.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid rgba(112, 152, 204, 0.699);
+    }
+.card { 
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0,0.3);
+    text-align: center;
+}    
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
+}
+p {
+    margin: 5px 0;
+    color: #666;
+}
+.contact {
+    margin-top: 20px;
+    text-align: left;
+}
+.contact p {
+    margin: 8px 0;
+}
+.contact a {
+    color: #1877f2;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+    <!-- Mở card, mọi nội dung bên trong -->
+    <div class="card">
+        <!-- Ảnh đại diện -->
+        <div class="avatar"></div>
+
+        <h1>Đặng Hải Phi Trường</h1>
+        <h2>(04/02/2006)</h2>
+        <p><strong>Trường:</strong> Học viện tài chính</p>
+        <p><strong>Sở thích:</strong> Guitar, nghe nhạc, học</p>
+        <p><strong>Mục tiêu:</strong> Trở thành lập trình viên</p>
+        <p><strong>Ước mơ:</strong> .....</p>
+
+        <!-- Thông tin liên lạc -->
+        <div class="contact">
+            <h2>Liên hệ với tôi:</h2>
+            <p>Email: <a href="mailto:dangtruong040206@gmail.com">dangtruong040206@gmail.com</a></p>
+            <p>Phone: <a href="tel:0946736295">0946736295</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/dang.truong.200486" target="_blank">Facebook cá nhân</a></p>
+        </div>
+    </div>
+    <!-- Đóng card ở đây -->
+</body>
+</html>
